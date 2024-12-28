@@ -1,0 +1,19 @@
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: azure;
+  width: 150px;
+  height: 100vh;
+  /* position: fixed; */
+  
+  
+}
+
+.sidebar a{
+  margin: 1rem;
+  text-decoration: none;
+  color: brown;
+  padding: 5px;
+  border-bottom: 1px solid goldenrod;
+}
