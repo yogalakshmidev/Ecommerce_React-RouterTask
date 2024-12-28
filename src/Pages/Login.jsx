@@ -4,7 +4,7 @@ export const Login = () => {
   const handleLogin = (e)=>{
     e.preventDefault();
     alert("Logged in Successfully")
-    navigate("/dashboard");
+    // navigate("/dashboard");
   }
   return (
     

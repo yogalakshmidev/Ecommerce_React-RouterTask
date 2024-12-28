@@ -30,16 +30,16 @@ const App = () => {
                   element: <Login />
               },
 
-                {
-                    path:"dashboard",
-                    element:<DashboardLayout />,
-                    children: [
-                        {
-                            path:"",
-                            element:<Dashboard />
-                        },
-                    ]
-                }
+                // {
+                //     path:"dashboard",
+                //     element:<DashboardLayout />,
+                //     children: [
+                //         {
+                //             path:"",
+                //             element:<Dashboard />
+                //         },
+                //     ]
+                // }
             ]
         }
     ];
